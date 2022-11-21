@@ -7,7 +7,7 @@ describe("Todo List Test Suite", () => {
   beforeAll(() => {
     // Seed the test data
     const today = new Date();
-    const oneDay = 60 * 60 * 24 * 1000;
+    const oneDay = 86500000;
     [
       {
         title: "Prepare for Exam",
